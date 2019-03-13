@@ -1,29 +1,25 @@
 # vue-libary-common
 
-## Project setup
-```
-yarn install
-```
+> A template for create vue conmponent libary.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+[中文文档](README.CN.md)
 
-### Compiles and minifies for production
-```
+## Dev Setup
+
+``` bash
+
+# install dependencies
+yarn
+
+# build for production with minification
 yarn run build
-```
 
-### Run your tests
-```
+# run eslint and fix code style
+npm run lint
+
+# run all tests
 yarn run test
+
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For a detailed explanation on how things work, contact us <www.389055604@qq.com>.

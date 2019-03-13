@@ -1,13 +1,17 @@
 {
   "name": "vue-libary-common",
   "version": "0.1.0",
+  "description": "A template for create vue component libary.",
+  "author": "SpringLiao <389055604@qq.com>",
   "main": "./dist/VeLib.common.js",
+  "homepage": "http://192.168.100.231/km-group/vue-libary-common",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VeLib src/index.js",
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
